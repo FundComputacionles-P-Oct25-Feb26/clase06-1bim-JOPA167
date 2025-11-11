@@ -1,0 +1,26 @@
+"""
+Problemática:
+El Instituto Meteorológico Nacional desea un programa que clasifique el tipo de clima de un día según la temperatura
+Si la temperatura es mayor a 30 °C, se considera un clima caluroso o húmedo.
+Si la temperatura es mayor o igual a 15 °C y menor o igual a 30 °C, el clima es templado.
+Si la temperatura es menor a 15 °C, se considera un clima frío.
+El programa debe mostrar un mensaje con la clasificación correspondiente.
+"""
+
+// ----------- Ejemplo: Clasificación del clima (entrada por teclado)
+1. Inicio
+2. temperatura, d[-n,n]
+3. Escribir "Ingrese la temperatura del día en °C: "
+4. Leer temperatura
+
+5. Si temperatura > 30 entonces
+6.     Escribir "El clima es caluroso o húmedo"
+7. De lo contrario
+8.     Si temperatura >= 15 and temperatura <= 30 entonces
+9.         Escribir "El clima es templado"
+10.    De lo contrario
+11.        Escribir "El clima es frío"
+12.    Fin si
+13. Fin si
+
+14. Fin

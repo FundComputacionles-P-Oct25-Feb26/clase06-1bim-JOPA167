@@ -1,0 +1,16 @@
+"""
+El Instituto Meteorológico Nacional desea un programa que clasifique el tipo de clima de un día según la temperatura registrada.
+Si la temperatura es:
+
+mayor a 30 °C, el clima es caluroso o húmedo.
+
+mayor o igual a 15 °C y menor o igual a 30 °C, el clima es templado.
+
+mayor o igual a 1 °C y menor a 15 °C, el clima es frío.
+
+menor a 1 °C (incluye valores negativos), el clima es muy frío.
+
+El programa debe solicitar la temperatura por teclado y mostrar un mensaje con la clasificación correspondiente.
+
+"""
+
